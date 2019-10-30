@@ -31,13 +31,6 @@ while($j++ < 100000) {
         }
 
         // On récupère les matchs et on les supprime histoire de faire comme un "historique"
-
-        if ($nbrTeam < 10)
-            $tours_limit = ($nbrTeam - 3);
-        else
-            $tours_limit = ($nbrTeam - 3);
-        if ($tours_limit > 8)
-            $tours_limit = 8;
         for ($i = 0; $i < 5; $i++) {
 
             echo 'Tour n° ' . $i . "\n";

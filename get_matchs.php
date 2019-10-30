@@ -33,8 +33,9 @@ function get_matchs_try($tab)
 
 function get_matchs($tab)
 {
+    // Même moi je doute sur ces deux lignes
     usort($tab, "cmpRank");
-    usort($tab, "cmp");
+    //usort($tab, "cmp");
 
     $i = 0;
     while ($i < 1000)
