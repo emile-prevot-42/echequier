@@ -56,7 +56,6 @@ On a eu deux idées :
 - Soit on permute le tableau trié jusqu’à trouver une solution
 -> Le soucis de cette solution, c’est que de permuter 21 équipes, ça a une complexité de `21 factorielle` et c’est impossible.
 - Soit on mélange le tableau au hasard
--> Le soucis c’est qu’on ne prend plus du tout en compte le classement
 
 # Et si le sénario est impossible
 Il y a des cas tout bonnement impossible à résoudre. Pour l’intant le comportement n’est pas défini.
