@@ -1,9 +1,5 @@
 <?php
 
-function cmp(Team $a, Team $b) {
-    return $a->getNearRivalDistance() < $b->getNearRivalDistance();
-}
-
 function cmpRank(Team $a, Team $b) {
     return $a->getRank() < $b->getRank();
 }
@@ -33,9 +29,8 @@ function get_matchs_try($tab)
 
 function get_matchs($tab)
 {
-    // Même moi je doute sur ces deux lignes
+    // Surtout pour que dans les premiers tours ce soit joli la façon de présenter les teams
     usort($tab, "cmpRank");
-    //usort($tab, "cmp");
 
     $i = 0;
     while ($i < 1000)
