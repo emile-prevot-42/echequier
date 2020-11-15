@@ -1,3 +1,5 @@
+Ceci est une implémentation en PHP de la formule échiquier utilisé dans les matchs de foot
+
 # Introduction
 
 Pour lancer l’algorithme, il faut commencer par installer `php 7` et `composer`.
